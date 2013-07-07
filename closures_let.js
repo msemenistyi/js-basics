@@ -5,7 +5,7 @@ function parent(){
 	console.log(width);
 	console.log(keyword);
 	console.log(age);
-	if (true){
+	if (true){ // separate scope
 		let width = 20,
 			age = 5;
 		console.log(width);
